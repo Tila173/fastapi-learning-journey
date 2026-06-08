@@ -8,6 +8,8 @@ through defined endpoints.
 **Real-world analogy:** A waiter in a restaurant — you (client) don't go to the
 kitchen directly. The waiter (API) takes your request and brings back the response.
 
+**Note:** The most common data exchange format is JSON, which represents data as key-value pairs. it's simple, lightweight, language-independent, and easy for both humans and computers to understand.
+
 ---
 
 ## Why Do We Need APIs?
