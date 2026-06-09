@@ -20,7 +20,7 @@ FastAPI is a modern, high-performance web framework for building APIs with Pytho
 │ Web Server │ ───► │ ASGI (Asynchronous Server Gateway)  │ ───► │      API Code       │
 └────────────┘      └─────────────────────────────────────┘      └─────────────────────┘
        ⇓                            ⇓                                      ⇓
-   Uvicorn                      Starlette                    Asynchronous Endpoint
+   Uvicorn                      Starlette                         Asynchronous Endpoint
 ```
 **For Flask**
 ```text
@@ -28,11 +28,10 @@ FastAPI is a modern, high-performance web framework for building APIs with Pytho
 │ Web Server │ ───► │ WSGI (Gateway Interface)    │ ───► │ Flask Application │
 └────────────┘      └─────────────────────────────┘      └───────────────────┘
        ⇓                         ⇓                                 ⇓
-   Gunicorn                  Werkzeug                    Synchronous Endpoint
+   Gunicorn                  Werkzeug                     Synchronous Endpoint
 ```
 
-
-### 5. API-First Development
+### 2.2 Fast to Code
 
 Every endpoint automatically contributes to an OpenAPI specification, generating interactive API documentation and enabling seamless integration with frontend applications and third-party services.
 
