@@ -33,7 +33,9 @@ FastAPI is a modern, high-performance web framework for building APIs with Pytho
 
 ### 2.2 Fast to Code
 
-Every endpoint automatically contributes to an OpenAPI specification, generating interactive API documentation and enabling seamless integration with frontend applications and third-party services.
+- **Automatic API Documentation**: FastAPI automatically generates OpenAPI documentation and interactive Swagger UI without any additional configuration.
+- **Automatic Input Validation**: Incoming data is automatically validated using Pydantic models. Developers do not need to write custom validation logic for common use cases.
+- **Seamless Integration with Modern Ecosystem**: ML/DL libraries, SQL, Docker, Kubernetes etc.
 
 ### 6. Excellent Developer Experience
 
