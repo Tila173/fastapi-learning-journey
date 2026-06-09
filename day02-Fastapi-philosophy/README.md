@@ -1,23 +1,21 @@
-## FastAPI Philosophy -  Day02
+## FastAPI Philosophy -  Day:02
 
 This file is built on the core philosophy of FastAPI:
 
 ### 1. FAST API
 
 FastAPI is a modern, high-performance web framework for building APIs with Python. It is built on two libraries:
-- **Pydandtic:**  it checks that incoming data is correct and converts it into Python objects.
+- **Pydandtic:**  It checks that incoming data is correct and converts it into Python objects.
+- **Starlette:** It is the lightweight ASGI web framework that handles requests, responses, routing, and asynchronous communication underneath FastAPI.
 
-### 2. Developer Productivity
+### 2. Philosophy
 
-FastAPI minimizes boilerplate code and allows developers to focus on business logic rather than repetitive configuration. Less code means faster development and easier maintenance.
+- **Fast to Run:** 
+- **Fast to Code:**
 
-### 3. Performance by Design
+### 2.1 Fast to Run
 
-Built on ASGI and powered by asynchronous programming, FastAPI delivers high performance and efficient concurrency, making it ideal for modern web applications and APIs.
-
-### 4. Automatic Validation
-
-Data validation is performed automatically using Python type hints and Pydantic models, helping catch errors early and ensuring API reliability.
+Web Server ---------> ASGI ---------> API Code
 
 ### 5. API-First Development
 
