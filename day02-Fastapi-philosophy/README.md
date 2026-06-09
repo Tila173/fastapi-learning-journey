@@ -1,10 +1,11 @@
-## FastAPI Philosophy
+## FastAPI Philosophy -  Day02
 
-This project is built on the core philosophy of FastAPI:
+This file is built on the core philosophy of FastAPI:
 
-### 1. Simplicity Through Type Hints
+### 1. FAST API
 
-FastAPI uses standard Python type annotations as a single source of truth. By declaring types once, FastAPI automatically handles validation, serialization, documentation, and editor support.
+FastAPI is a modern, high-performance web framework for building APIs with Python. It is built on two libraries:
+- **Pydandtic:**  it checks that incoming data is correct and converts it into Python objects.
 
 ### 2. Developer Productivity
 
