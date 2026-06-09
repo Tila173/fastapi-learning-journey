@@ -17,8 +17,7 @@ FastAPI is a modern, high-performance web framework for building APIs with Pytho
 
 Web Server ---------> ASGI (Asynchronous Server Gateway Interface) ---------> API Code
 
-    ⇓                     ⇓                                                       ⇓
-    
+    ⇓                     ⇓                                                       ⇓  
 'Unicorn'            'Starlette'                                              'Asynchronous Endpoint'
 
 ### 5. API-First Development
