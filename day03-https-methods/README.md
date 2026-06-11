@@ -108,6 +108,7 @@ fastapi-project/
 git clone https://github.com/Tila173/fastapi-learning-journey.git
 cd fastapi-learning-journey
 
-```bash
+```
 ### 2️⃣ Create virtual environment
 python -m venv myenv
+```
