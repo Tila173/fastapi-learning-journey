@@ -92,14 +92,16 @@ This project demonstrates a simple REST API using FastAPI with a JSON file as a 
 
 ---
 
-## Project Structure
-├── main.py # FastAPI application
+## 📁 Project Structure
 
-├── patients.json # Patient data (JSON file)
+```
+fastapi-project/
+├── main.py            # FastAPI application
+├── patients.json      # Patient data (JSON file)
+├── requirements.txt   # Project dependencies
+```
 
-├── requirements.txt # Project dependencies
-
-## 🚀 How to Run the Project
+## How to Run the Project
 
 ### 1️⃣ Clone the repository
 ```bash
