@@ -94,7 +94,9 @@ This project demonstrates a simple REST API using FastAPI with a JSON file as a 
 
 ## Project Structure
 ├── main.py # FastAPI application
+
 ├── patients.json # Patient data (JSON file)
+
 ├── requirements.txt # Project dependencies
 
 ## 🚀 How to Run the Project
