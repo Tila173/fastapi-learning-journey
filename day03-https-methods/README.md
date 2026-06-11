@@ -101,16 +101,52 @@ fastapi-project/
 ├── requirements.txt   # Project dependencies
 ```
 
-## How to Run the Project
+## 🚀 How to Run the Project
 
 ### 1️⃣ Clone the repository
 ```bash
 git clone https://github.com/Tila173/fastapi-learning-journey.git
 cd fastapi-learning-journey
-
 ```
+
+---
+
 ### 2️⃣ Create virtual environment
+```bash
 python -m venv myenv
+```
+
+---
+
+### 3️⃣ Activate virtual environment
+
+**Windows:**
+```bash
 .\myenv\Scripts\activate
+```
+
+**Mac/Linux:**
+```bash
+source myenv/bin/activate
+```
+
+---
+
+### 4️⃣ Install dependencies
+```bash
 pip install -r requirements.txt
+```
+
+---
+
+### 5️⃣ Run the FastAPI server
+```bash
 uvicorn main:app --reload
+```
+
+---
+
+### 🌐 Open in browser
+- API: http://127.0.0.1:8000  
+- Docs: http://127.0.0.1:8000/docs
+```
