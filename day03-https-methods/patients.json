@@ -1,0 +1,107 @@
+[
+  {
+    "id": 1,
+    "name": "Muhammad Ali",
+    "age": 34,
+    "gender": "Male",
+    "blood_group": "B+",
+    "contact": "+92-300-1234567",
+    "email": "ali@example.com",
+    "address": "Rawalpindi, Punjab, Pakistan",
+    "disease": "Diabetes Type 2",
+    "admitted": false,
+    "last_visit": "2026-05-10",
+    "doctor": "Dr. Ahmed Khan",
+    "medications": ["Metformin", "Insulin"],
+    "allergies": ["Penicillin"],
+    "emergency_contact": {
+      "name": "Hassan Ali",
+      "relation": "Brother",
+      "phone": "+92-333-9876543"
+    }
+  },
+  {
+    "id": 2,
+    "name": "Ayesha Khan",
+    "age": 28,
+    "gender": "Female",
+    "blood_group": "A+",
+    "contact": "+92-301-2345678",
+    "email": "ayesha@example.com",
+    "address": "Islamabad, Pakistan",
+    "disease": "Asthma",
+    "admitted": true,
+    "last_visit": "2026-06-01",
+    "doctor": "Dr. Sarah Malik",
+    "medications": ["Ventolin Inhaler"],
+    "allergies": ["Dust", "Smoke"],
+    "emergency_contact": {
+      "name": "Imran Khan",
+      "relation": "Husband",
+      "phone": "+92-345-1122334"
+    }
+  },
+  {
+    "id": 3,
+    "name": "Usman Tariq",
+    "age": 45,
+    "gender": "Male",
+    "blood_group": "O-",
+    "contact": "+92-302-3456789",
+    "email": "usman@example.com",
+    "address": "Lahore, Punjab, Pakistan",
+    "disease": "Hypertension",
+    "admitted": false,
+    "last_visit": "2026-04-18",
+    "doctor": "Dr. Bilal Ahmed",
+    "medications": ["Amlodipine", "Atenolol"],
+    "allergies": [],
+    "emergency_contact": {
+      "name": "Sana Tariq",
+      "relation": "Wife",
+      "phone": "+92-321-5566778"
+    }
+  },
+  {
+    "id": 4,
+    "name": "Fatima Noor",
+    "age": 19,
+    "gender": "Female",
+    "blood_group": "AB+",
+    "contact": "+92-304-4567890",
+    "email": "fatima@example.com",
+    "address": "Karachi, Sindh, Pakistan",
+    "disease": "Migraine",
+    "admitted": false,
+    "last_visit": "2026-06-05",
+    "doctor": "Dr. Usman Rehman",
+    "medications": ["Ibuprofen"],
+    "allergies": ["Gluten"],
+    "emergency_contact": {
+      "name": "Noor Fatima",
+      "relation": "Mother",
+      "phone": "+92-300-9988776"
+    }
+  },
+  {
+    "id": 5,
+    "name": "Hamza Riaz",
+    "age": 52,
+    "gender": "Male",
+    "blood_group": "A-",
+    "contact": "+92-305-5678901",
+    "email": "hamza@example.com",
+    "address": "Peshawar, KPK, Pakistan",
+    "disease": "Heart Disease",
+    "admitted": true,
+    "last_visit": "2026-06-08",
+    "doctor": "Dr. Farhan Qureshi",
+    "medications": ["Aspirin", "Clopidogrel"],
+    "allergies": ["Sulfa drugs"],
+    "emergency_contact": {
+      "name": "Ali Riaz",
+      "relation": "Son",
+      "phone": "+92-331-4455667"
+    }
+  }
+]
